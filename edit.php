@@ -52,7 +52,7 @@ if(isset($_POST['update']))
 		$result = mysqli_query($mysqli, "UPDATE data SET jenis_zakat='$jenis_zakat',rp='$rp',nama_lengkap='$nama_lengkap',nomor_hp='$nomor_hp',email='$email',nama_bank='$nama_bank',nomor_rekening='$nomor_rekening' WHERE id=$id");
 		
 		//redirectig to the display page. In our case, it is index.php
-		header("Location: index.php");
+		header("Location: home.php");
 	}
 }
 ?>
@@ -163,3 +163,4 @@ while($res = mysqli_fetch_array($result))
 	</form>
 </body>
 </html>
+

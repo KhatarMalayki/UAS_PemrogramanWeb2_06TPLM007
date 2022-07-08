@@ -11,6 +11,7 @@ if (isset($_SESSION['login'])) {
 echo "<h1>Selamat Datang ". $_SESSION['login'] ."</h1>";
 echo "<h2>Halaman ini hanya bisa diakses jika Anda sudah login</h2>";
 echo "<h2>Klik <a href='home.php'>di sini</a> untuk menuju homepage</h2>";
+echo "<h2>Klik <a href='index.html'>di sini</a> untuk log out</h2>";
 } else {
 //session belum ada artinya belum login
 die ("Anda belum login! Anda tidak berhak masuk ke halaman

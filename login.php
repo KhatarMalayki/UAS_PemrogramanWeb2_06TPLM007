@@ -20,28 +20,42 @@ $_SESSION['login'] = $user;
 echo "<h1>Anda berhasil LOGIN</h1>";
 echo "<h2>Klik <a href='session2.php'>di sini</a>
 untuk menuju ke halaman pemeriksaan session";
-} elseif ($user == "khatar" && $pass = "191011401166") {
+} elseif ($user == "MohamadKhatarMalayki" && $pass = "191011401166") {
     //menciptakan session
     $_SESSION['login'] = $user;
     //menuju ke halaman pemeriksaan session
     echo "<h1>Anda berhasil LOGIN</h1>";
     echo "<h2>Klik <a href='session2.php'>di sini</a>
     untuk menuju ke halaman pemeriksaan session";
-}elseif($user == "rafly" && $pass = "201299") {
+}elseif($user == "RaflyZahrandiPermana" && $pass = "191011401133") {
     //menciptakan session
     $_SESSION['login'] = $user;
     //menuju ke halaman pemeriksaan session
     echo "<h1>Anda berhasil LOGIN</h1>";
     echo "<h2>Klik <a href='session2.php'>di sini</a>
     untuk menuju ke halaman pemeriksaan session";
-}elseif($user == "novia" && $pass = "201299") {
+}elseif($user == "NoviaIsnaini" && $pass = "191011402705") {
     //menciptakan session
     $_SESSION['login'] = $user;
     //menuju ke halaman pemeriksaan session
     echo "<h1>Anda berhasil LOGIN</h1>";
     echo "<h2>Klik <a href='session2.php'>di sini</a>
     untuk menuju ke halaman pemeriksaan session";
-}elseif($user == "fajar" && $pass = "201299") {
+}elseif($user == "MuhammadFajarHandika" && $pass = "191011402404") {
+    //menciptakan session
+    $_SESSION['login'] = $user;
+    //menuju ke halaman pemeriksaan session
+    echo "<h1>Anda berhasil LOGIN</h1>";
+    echo "<h2>Klik <a href='session2.php'>di sini</a>
+    untuk menuju ke halaman pemeriksaan session";
+}elseif($user == "MuhamadIchsanDarmawan" && $pass = "191011401142") {
+    //menciptakan session
+    $_SESSION['login'] = $user;
+    //menuju ke halaman pemeriksaan session
+    echo "<h1>Anda berhasil LOGIN</h1>";
+    echo "<h2>Klik <a href='session2.php'>di sini</a>
+    untuk menuju ke halaman pemeriksaan session";
+}elseif($user == "Dosen" && $pass = "123") {
     //menciptakan session
     $_SESSION['login'] = $user;
     //menuju ke halaman pemeriksaan session
@@ -50,7 +64,7 @@ untuk menuju ke halaman pemeriksaan session";
     untuk menuju ke halaman pemeriksaan session";
 } else{
 echo "user tidak bisa login";
-echo "<h2>Klik <a href='index.php'>di sini</a>
+echo "<h2>Klik <a href='index.html'>di sini</a>
 untuk menuju ke halaman login";
 
 }

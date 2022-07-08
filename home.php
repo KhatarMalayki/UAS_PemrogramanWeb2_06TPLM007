@@ -78,6 +78,6 @@ $result = mysqli_query($mysqli, "SELECT * FROM data ORDER BY id ASC"); // using 
 	</table><p class="right">
 	<a href="pdf.php" target="_blank" >Cetak Laporan</a>
 	<p class="right">
-	<a href="session3.php" target="_blank" >Log out</a>
+	<a href="session2.php" target="_blank" >Log out</a>
 </body>
 </html>
