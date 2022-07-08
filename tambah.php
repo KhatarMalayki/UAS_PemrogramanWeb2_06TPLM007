@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Zakat</title>
+	<title>Input Data</title>
 </head>
 
 <body>

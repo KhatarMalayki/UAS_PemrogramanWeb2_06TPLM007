@@ -77,7 +77,7 @@ while($res = mysqli_fetch_array($result))
 <!DOCTYPE HTML>  
 <html>  
 <head>  
-     <title>Zakat</title>  
+     <title>EDIT</title>  
      <style>
        table {
        font-family: arial, sans-serif;

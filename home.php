@@ -34,10 +34,13 @@ $result = mysqli_query($mysqli, "SELECT * FROM data ORDER BY id ASC"); // using 
  text-decoration: none;
  border-radius: 2px;
  }
+ .left    { text-align: left;}
+   .right   { text-align: right;}
+   .center  { text-align: center;}
+   .justify { text-align: justify;}
  </style>
  
 <a href="tambah.html">Add New Data</a><br/><br/>
- <a target="_blank" href="cetak.php">Cetak Laporan</a>
         </div>
 
 	<table width='80%' border=0>
@@ -72,6 +75,9 @@ $result = mysqli_query($mysqli, "SELECT * FROM data ORDER BY id ASC"); // using 
 		<br><a href=\"delete.php?id=$res[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a>";		
 	}
 	?>
-	</table>
+	</table><p class="right">
+	<a href="pdf.php" target="_blank" >Cetak Laporan</a>
+	<p class="right">
+	<a href="session3.php" target="_blank" >Log out</a>
 </body>
 </html>

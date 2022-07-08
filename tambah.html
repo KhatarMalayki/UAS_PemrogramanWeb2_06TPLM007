@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>  
 <html>  
 <head>  
-     <title>Zakat</title>  
+     <title>Input Data</title>  
      <style>
        table {
        font-family: arial, sans-serif;
@@ -18,10 +18,25 @@
        tr:nth-child(even) {
        background-color: #dddddd;
        }
+       
+       a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(11, 12, 11);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
        </style>
 </head>  
 <body>  
-<h2>Data Pembayaran Zakat</h2>  
+<h2>Input Pembayaran Zakat</h2>  
 <hr>  
 <form action="tambah.php" method="post" name="form1">  
 <table width="100%" border="0">  
@@ -85,9 +100,9 @@
      <td>  
           <input type="submit"  name="Simpan" value="Simpan">  
      </td>  
-</tr>  
+</tr> 
 <tr>
-    <td><a href="index.php"><input type="submit" value="Home"></a>
+     <td><a href="home.php" target="_blank" title="Klik Disini">BACK</a>
         <br/><br/></td>
 </tr>
 </table>  
